@@ -1,12 +1,20 @@
 spring:
   application:
+    # 应用名称
     name: alibaba-nacos-config-client
   cloud:
     nacos:
       config:
+        # 配置中心地址
         server-addr: 192.168.1.141:8848
+        # 文件后缀
         file-extension: yml
+        # 文件前缀
         prefix: application-nacos
+        # 命名空间ID
         namespace: 21c7d9a6-4b92-4313-b28b-7ba5a9328902
   profiles:
-    active: prod
+    # 环境指定为dev
+    active: dev
+    # 环境指定为prod
+#    active: prod
