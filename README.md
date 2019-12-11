@@ -1,4 +1,4 @@
-# project
+# spring-cloud-alibaba-G-demo
 
 #### 介绍
 本项目是基于SpringCloud G系列与SpringCloud alibaba 2.1.0 的探索实践项目  
