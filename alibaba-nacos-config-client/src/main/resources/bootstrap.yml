@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: alibaba-nacos-config-client
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.1.141:8848
+        file-extension: yml
+        prefix: application-nacos
+        namespace: 21c7d9a6-4b92-4313-b28b-7ba5a9328902
+  profiles:
+    active: prod
