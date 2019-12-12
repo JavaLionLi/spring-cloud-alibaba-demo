@@ -2,3 +2,6 @@
 /alibaba-nacos-config-client/target/
 /alibaba-nacos-discovery-client/target/
 /alibaba-nacos-discovery-server/target/
+/alibaba-nacos-discovery-server/*.iml
+/alibaba-nacos-discovery-client/*.iml
+/alibaba-nacos-config-client/*.iml
