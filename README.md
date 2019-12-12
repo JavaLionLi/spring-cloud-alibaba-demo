@@ -9,3 +9,10 @@
 SpringCloud G系列  
 SpringCloud alibaba 2.1.0  
 alibaba nacos 1.0.0  
+
+### spring cloud alibaba专题  
+| 模块名称 | 模块作用 |
+|---- | ---- |
+| alibaba-nacos-discovery-server | 使用Nacos实现服务注册与发现：服务提供方 |
+| alibaba-nacos-discovery-client | 使用Nacos实现服务注册与发现：服务消费方 |
+| alibaba-nacos-config-client | 使用Nacos实现注册中心：客户端 |
