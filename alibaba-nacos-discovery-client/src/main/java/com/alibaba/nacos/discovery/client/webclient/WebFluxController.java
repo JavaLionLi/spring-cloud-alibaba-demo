@@ -15,7 +15,7 @@ public class WebFluxController {
     private WebClient.Builder webClientBuilder;
 
     @GetMapping("/testWebFlux")
-    public Mono<String> test() {
+    public Mono<String> testWebFlux() {
         Mono<String> result = webClientBuilder.build().get()
                 .uri("http://alibaba-nacos-discovery-server/test?name=webFlux")
                 .retrieve().bodyToMono(String.class);

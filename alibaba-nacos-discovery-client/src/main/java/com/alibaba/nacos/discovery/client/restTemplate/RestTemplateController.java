@@ -14,7 +14,7 @@ public class RestTemplateController {
     private RestTemplate restTemplate;
 
     @GetMapping("/testRest")
-    public String test() {
+    public String testRest() {
         String result = restTemplate.getForObject("http://alibaba-nacos-discovery-server/test?name=restTemplate", String.class);
         return "返回数据 : " + result;
     }

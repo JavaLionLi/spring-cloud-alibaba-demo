@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class FeignController {
 
     @Autowired
-    private TestServiceFeign client;
+    private TestServiceFeign testServiceFeign;
 
     @GetMapping("/testFeign")
-    public String test() {
-        String result = client.hello("feign");
+    public String testFeign() {
+        String result = testServiceFeign.test("feign");
         return "返回数据 : " + result;
     }
 }

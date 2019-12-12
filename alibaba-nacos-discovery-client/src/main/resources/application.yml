@@ -2,7 +2,7 @@ server:
   port: 9000
 spring:
   application:
-    name: alibaba-nacos-discovery-client-webclient
+    name: alibaba-nacos-discovery-client
   cloud:
     nacos:
       discovery:

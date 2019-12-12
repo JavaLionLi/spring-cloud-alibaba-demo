@@ -16,7 +16,7 @@ public class CommonController {
     LoadBalancerClient loadBalancerClient;
 
     @GetMapping("/testCommon")
-    public String test() {
+    public String testCommon() {
         // 通过spring cloud common中的负载均衡接口选取服务提供节点实现接口调用
         ServiceInstance serviceInstance = loadBalancerClient.choose("alibaba-nacos-discovery-server");
         String url = serviceInstance.getUri() + "/test?name=common";
