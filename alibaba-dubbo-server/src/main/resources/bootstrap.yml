@@ -12,6 +12,6 @@ spring:
         # 文件后缀
         file-extension: yml
         # 文件前缀
-        prefix: application-dubbo-server-2
+        prefix: application-dubbo-server-1
         # 命名空间ID
         namespace: 21c7d9a6-4b92-4313-b28b-7ba5a9328902
