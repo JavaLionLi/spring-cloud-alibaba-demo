@@ -1,0 +1,14 @@
+dubbo:
+  cloud:
+    # 订阅服务名
+    subscribed-services: alibaba-dubbo-server
+  protocol:
+    # 使用dubbo协议通信
+    name: dubbo
+    # dubbo 协议端口(-1表示自增端口,从20880开始)
+    port: -1
+  # 挂载到 Spring Cloud 注册中心
+  registry:
+    address: spring-cloud://localhost
+server:
+  port: 8002
