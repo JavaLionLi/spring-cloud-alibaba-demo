@@ -5,3 +5,9 @@
 /alibaba-nacos-discovery-server/*.iml
 /alibaba-nacos-discovery-client/*.iml
 /alibaba-nacos-config-client/*.iml
+/alibaba-dubbo-client/target/
+/alibaba-dubbo-api/target/
+/alibaba-dubbo-server/target/
+/alibaba-dubbo-server/*.iml
+/alibaba-dubbo-client/*.iml
+/alibaba-dubbo-api/*.iml

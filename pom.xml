@@ -29,6 +29,9 @@
         <module>alibaba-nacos-discovery-server</module><!-- 使用Nacos实现服务注册与发现：服务提供方 -->
         <module>alibaba-nacos-discovery-client</module><!-- 使用Nacos实现服务注册与发现：服务消费方 -->
         <module>alibaba-nacos-config-client</module><!-- 使用Nacos实现注册中心：客户端 -->
+        <module>alibaba-dubbo-api</module><!-- Dubbo API定义 -->
+        <module>alibaba-dubbo-client</module><!-- Dubbo 客户端实现 -->
+        <module>alibaba-dubbo-server</module><!-- Dubbo 服务端实现 -->
     </modules>
 
     <dependencyManagement>
