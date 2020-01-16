@@ -1,4 +1,4 @@
-# spring-cloud-alibaba-G-demo
+# spring-cloud-alibaba-H-demo
 
 ### 介绍
 本项目是基于SpringCloud Hoxton与SpringCloud alibaba 2.1.1 的探索实践项目  
