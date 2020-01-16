@@ -9,8 +9,8 @@
 | 依赖 | 版本 |
 |---- | ---- |
 | SpringCloud | Hoxton.RELEASE |
-| SpringCloud-alibaba | 2.1.1.RELEASE |
-| SpringBoot-alibaba | 2.2.2.RELEASE |
+| SpringCloud-Alibaba | 2.1.1.RELEASE |
+| SpringBoot | 2.2.2.RELEASE |
 | alibaba-nacos | 1.0.0 |
 
 ### spring cloud alibaba专题  
