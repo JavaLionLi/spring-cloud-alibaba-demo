@@ -11,3 +11,13 @@
 /alibaba-dubbo-server/*.iml
 /alibaba-dubbo-client/*.iml
 /alibaba-dubbo-api/*.iml
+/alibaba-sentinel-dubbo-client/target/
+/alibaba-sentinel-dubbo-api/target/
+/alibaba-sentinel-dubbo-server/target/
+/alibaba-sentinel-dubbo-server/*.iml
+/alibaba-sentinel-dubbo-client/*.iml
+/alibaba-sentinel-dubbo-api/*.iml
+/alibaba-sentinel-feign-client/target/
+/alibaba-sentinel-feign-server/target/
+/alibaba-sentinel-feign-server/*.iml
+/alibaba-sentinel-feign-client/*.iml
