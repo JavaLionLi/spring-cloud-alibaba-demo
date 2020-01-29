@@ -25,6 +25,7 @@
 | alibaba-sentinel-dubbo-server | Sentinel Dubbo 服务提供端 |
 | alibaba-sentinel-dubbo-client | Sentinel Dubbo 服务消费端 |
 | alibaba-sentinel-dubbo-api | Sentinel Dubbo API定义 |
+| alibaba-sentinel-dashboard | Sentinel 控制台 |
 
 ### 即将更新 
 | 模块名称 | 模块作用 |
