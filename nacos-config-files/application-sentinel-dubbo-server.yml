@@ -12,8 +12,3 @@ dubbo:
     base-packages: com.alibaba.sentinel.dubbo.server.service
 server:
   port: 8000
-spring:
-  cloud:
-    sentinel:
-      transport:
-        dashboard: 127.0.0.1:8080
