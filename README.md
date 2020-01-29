@@ -1,4 +1,4 @@
-# spring-cloud-alibaba-G-demo
+# spring-cloud-alibaba-H-demo
 
 ### 介绍
 本项目是基于SpringCloud Hoxton与SpringCloud alibaba 2.1.1 的探索实践项目  
@@ -9,8 +9,8 @@
 | 依赖 | 版本 |
 |---- | ---- |
 | SpringCloud | Hoxton.RELEASE |
-| SpringCloud-alibaba | 2.1.1.RELEASE |
-| SpringBoot-alibaba | 2.2.2.RELEASE |
+| SpringCloud-Alibaba | 2.1.1.RELEASE |
+| SpringBoot | 2.2.2.RELEASE |
 | alibaba-nacos | 1.1.0 |
 
 ### spring cloud alibaba专题  
