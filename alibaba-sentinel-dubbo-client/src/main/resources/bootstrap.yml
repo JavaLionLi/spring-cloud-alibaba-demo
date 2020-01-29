@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: alibaba-sentinel-dubbo-client
+  cloud:
+    # Nacos 服务发现与注册配置
+    nacos:
+      discovery:
+        server-addr: 192.168.101.11:8848
+      config:
+        # 配置中心地址
+        server-addr: 192.168.101.11:8848
+        # 文件后缀
+        file-extension: yml
+        # 文件前缀
+        prefix: application-sentinel-dubbo-client
+        # 命名空间ID
+        namespace: f799e2c7-3ab0-4e95-a7db-2150a91ec744

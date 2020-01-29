@@ -11,7 +11,7 @@
 | SpringCloud | Hoxton.RELEASE |
 | SpringCloud-alibaba | 2.1.1.RELEASE |
 | SpringBoot-alibaba | 2.2.2.RELEASE |
-| alibaba-nacos | 1.0.0 |
+| alibaba-nacos | 1.1.0 |
 
 ### spring cloud alibaba专题  
 | 模块名称 | 模块作用 |
@@ -22,8 +22,11 @@
 | alibaba-dubbo-server | Dubbo 服务端实现(集成Nacos实现注册中心与配置中心) |
 | alibaba-dubbo-client | Dubbo 客户端实现(集成Nacos实现注册中心与配置中心) |
 | alibaba-dubbo-api | Dubbo API定义 |
+| alibaba-sentinel-dubbo-server | Sentinel Dubbo 服务提供端 |
+| alibaba-sentinel-dubbo-client | Sentinel Dubbo 服务消费端 |
+| alibaba-sentinel-dubbo-api | Sentinel Dubbo API定义 |
 
 ### 即将更新 
 | 模块名称 | 模块作用 |
 |---- | ---- |
-| alibaba-sentinel | 接口限流 |
+| alibaba-sentinel-feign | 接口限流(基于feign) |

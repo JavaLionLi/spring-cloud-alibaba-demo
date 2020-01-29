@@ -1,0 +1,19 @@
+dubbo:
+  protocol:
+    # 使用dubbo协议通信
+    name: dubbo
+    # dubbo 协议端口(-1表示自增端口,从20880开始)
+    port: -1
+  # 挂载到 Spring Cloud 注册中心
+  registry:
+    address: spring-cloud://localhost
+  scan:
+    # 指定 Dubbo 服务实现类的扫描基准包
+    base-packages: com.alibaba.sentinel.dubbo.server.service
+server:
+  port: 8000
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
