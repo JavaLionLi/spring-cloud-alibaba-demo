@@ -26,8 +26,11 @@
 | alibaba-sentinel-dubbo-client | Sentinel Dubbo 服务消费端 |
 | alibaba-sentinel-dubbo-api | Sentinel Dubbo API定义 |
 | alibaba-sentinel-dashboard | Sentinel 控制台 |
+| alibaba-sentinel-feign-server | Sentinel Feign 服务提供端 |
+| alibaba-sentinel-feign-client | Sentinel Feign 服务消费端 |
 
 ### 即将更新 
 | 模块名称 | 模块作用 |
 |---- | ---- |
-| alibaba-sentinel-feign | 接口限流(基于feign) |
+| alibaba-stream-rocketMQ | 流处理消息队列 |
+| alibaba-seata | 分布式事务 |

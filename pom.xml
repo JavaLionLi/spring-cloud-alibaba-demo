@@ -35,6 +35,8 @@
         <module>alibaba-sentinel-dubbo-api</module><!-- Sentinel Dubbo API定义 -->
         <module>alibaba-sentinel-dubbo-client</module><!-- Sentinel Dubbo 服务消费端 -->
         <module>alibaba-sentinel-dubbo-server</module><!-- Sentinel Dubbo 服务提供端 -->
+        <module>alibaba-sentinel-feign-client</module><!-- Sentinel Feign 服务消费端 -->
+        <module>alibaba-sentinel-feign-server</module><!-- Sentinel Feign 服务提供端 -->
     </modules>
 
     <dependencyManagement>
