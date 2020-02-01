@@ -1,0 +1,16 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: alibaba-stream-rocketmq-produce
+  cloud:
+    stream:
+      rocketmq:
+        binder:
+          name-server: 192.168.101.11:9876
+      bindings:
+        output:
+          content-type: application/json
+          # 用来指定topic
+          destination: stream-test-topic
+

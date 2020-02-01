@@ -28,9 +28,12 @@
 | alibaba-sentinel-dashboard | Sentinel 控制台 |
 | alibaba-sentinel-feign-server | Sentinel Feign 服务提供端 |
 | alibaba-sentinel-feign-client | Sentinel Feign 服务消费端 |
+| alibaba-stream-rocketmq-consumer | RocketMQ Stream 消息消费者 |
+| alibaba-stream-rocketmq-produce | RocketMQ Stream 消息生产者 |
 
 ### 即将更新 
 | 模块名称 | 模块作用 |
 |---- | ---- |
-| alibaba-stream-rocketMQ | 流处理消息队列 |
 | alibaba-seata | 分布式事务 |
+| gateway | 服务网关 |
+| zipkin | 链路跟踪 |

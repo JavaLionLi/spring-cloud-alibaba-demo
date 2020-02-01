@@ -1,0 +1,19 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: alibaba-stream-rocketmq-consumer
+  cloud:
+    stream:
+      rocketmq:
+        binder:
+          name-server: 192.168.101.11:9876
+      bindings:
+        input:
+          content-type: application/json
+          # 定义 topic
+          destination: stream-test-topic
+          # group一定要写
+          group: test-group
+
+

@@ -37,6 +37,8 @@
         <module>alibaba-sentinel-dubbo-server</module><!-- Sentinel Dubbo 服务提供端 -->
         <module>alibaba-sentinel-feign-client</module><!-- Sentinel Feign 服务消费端 -->
         <module>alibaba-sentinel-feign-server</module><!-- Sentinel Feign 服务提供端 -->
+        <module>alibaba-stream-rocketmq-consumer</module><!-- RocketMQ Stream 消息消费者 -->
+        <module>alibaba-stream-rocketmq-produce</module><!-- RocketMQ Stream 消息生产者 -->
     </modules>
 
     <dependencyManagement>
