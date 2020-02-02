@@ -7,6 +7,7 @@ spring:
     stream:
       rocketmq:
         binder:
+          # rocketmq 地址
           name-server: 192.168.101.11:9876
       bindings:
         output:

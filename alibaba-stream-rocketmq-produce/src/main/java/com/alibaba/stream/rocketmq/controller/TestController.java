@@ -28,18 +28,4 @@ public class TestController {
                 MessageBuilder.withPayload(testMessaging).build());
         return "投递消息 => " + msg + " => 成功";
     }
-
-    /**
-     * 事务消息
-     */
-    @GetMapping("/tx-stream-test-msg")
-    public String txStreamTestMsg(String msg){
-        // 构建消息对象
-        TestMessaging testMessaging = new TestMessaging()
-                .setMsgId(UUID.randomUUID().toString())
-                .setMsgText(msg);
-        source.output().send(
-                MessageBuilder.withPayload(testMessaging).build());
-        return "投递消息 => " + msg + " => 成功";
-    }
 }
