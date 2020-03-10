@@ -1,7 +1,7 @@
-# spring-cloud-alibaba-H-demo
+# spring-cloud-alibaba-demo
 
 ### 介绍
-本项目是基于SpringCloud Hoxton与SpringCloud alibaba 2.1.1 的探索实践项目  
+本项目是基于SpringCloud 与SpringCloud alibaba 的探索实践项目  
 关联本人博客springcloud经验总结专题  
 地址: https://blog.csdn.net/weixin_40461281/category_9280146.html  
 
