@@ -8,10 +8,10 @@
 ### 软件架构
 | 依赖 | 版本 |
 |---- | ---- |
-| SpringCloud | Hoxton.RELEASE |
-| SpringCloud-Alibaba | 2.1.1.RELEASE |
-| SpringBoot | 2.2.2.RELEASE |
-| alibaba-nacos | 1.1.0 |
+| SpringCloud | 2020.0.3 |
+| SpringCloud-Alibaba | 2021.1.RELEASE |
+| SpringBoot | 2.5.2.RELEASE |
+| alibaba-nacos | 2.0.2 |
 
 ### spring cloud alibaba专题  
 | 模块名称 | 模块作用 |
